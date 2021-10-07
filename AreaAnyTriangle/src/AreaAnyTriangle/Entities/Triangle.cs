@@ -30,7 +30,7 @@ namespace AreaAnyTriangle.Entities
 
         private double Factor()
         {
-            return (aSide + bSide + cSide) / 3;
+            return (aSide + bSide + cSide) / 2;
         }
         public override string ToString()
         {
