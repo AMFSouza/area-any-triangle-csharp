@@ -21,6 +21,10 @@ namespace AreaAnyTriangle
                 CalculateArea(triangles, out biggestArea);
                 DisplayBiggestArea(biggestArea);
             }
+            catch (FormatException e)
+            {
+                Console.WriteLine("Error in format: " + e.Message);
+            }
             catch (MeasuresException e)
             {
                 Console.WriteLine(e.Message);
